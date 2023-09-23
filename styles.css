@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#navigation{
+    background-color:rgb(39, 38, 38);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+#nav-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#nav-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    font-size: 16px;
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav{
+    text-decoration: none;
+    color: white;
+    
+}
+.nav:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.top-img{
+    vertical-align: middle;
+    border-radius: 50px;
+}
+.title{
+    color: whitesmoke;
+    text-shadow: 0 0 4px black;
+}
+.tam{
+    color: whitesmoke;
+    text-shadow: 0 0 3px black;
+}
+.vids{ 
+    margin: 5px 10px;
+    color: rgb(150, 150, 150);
+    text-shadow: 0 0 4px black;
+    border-radius: 20px;
+}
+.wtr{
+    text-decoration: underline;
+}
+.laugh{
+    color: whitesmoke;
+    background-color: rgb(39, 38, 38);
+}
+.ml{
+    background-color: black;
+}
